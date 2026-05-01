@@ -6,6 +6,13 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
-# Multiply
+# Multiplication
 def multiply(a, b):
     return a * b 
+
+# Division
+def divide(a, b):
+    if b != 0:
+        return a / b 
+    else:
+        return 'Error: Division by zero is not allowed!'
