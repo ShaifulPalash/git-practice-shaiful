@@ -1,4 +1,8 @@
 from datetime import date 
+from utils import add, subtract 
 
 print('My Name: Shaiful Islam')
 print("Today's Date:", date.today().strftime('%d-%m-%Y'))
+
+print('Addition:', add(30, 10))
+print('Subtraction:', subtract(30, 10))
